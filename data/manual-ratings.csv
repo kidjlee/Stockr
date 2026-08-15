@@ -1,0 +1,5 @@
+symbol,source,strongBuy,buy,hold,underperform,sell,targetMean,targetHigh,targetLow,analysts,asOf,url,note
+# Transcribe analyst numbers from sources that cannot be fetched automatically
+# (MarketWatch, CNN Markets, The Globe and Mail, a broker terminal) and they are
+# blended in as a full source. Delete these examples before your first run.
+# Rows older than MANUAL_MAX_AGE_DAYS are ignored.

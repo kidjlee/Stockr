@@ -1,0 +1,74 @@
+name: Daily analyst refresh
+
+on:
+  schedule:
+    # 21:30 UTC on weekdays. During EDT that is 17:30 Toronto — after the 16:00
+    # close, so targets and ratings revised during the session are picked up.
+    # Cron here is always UTC, so this drifts to 16:30 local in winter.
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Only refresh the first N instruments (leave blank for all)"
+        required: false
+        type: string
+
+# Only one refresh at a time — two runs would race on the same snapshot file.
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Verify scoring logic before trusting a new snapshot
+        run: npm test
+
+      - name: Pull analyst insights
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          # TipRanks blocks datacentre IPs, so leave it off in CI.
+          TIPRANKS_ENABLED: "0"
+        run: |
+          if [ -n "${{ inputs.limit }}" ]; then
+            npm run refresh -- --limit "${{ inputs.limit }}"
+          else
+            npm run refresh
+          fi
+
+      - name: Fail if the run produced no usable ratings
+        run: |
+          scored=$(node -e "const s=require('./data/latest.json');console.log(s.records.filter(r=>r.composite!==undefined).length)")
+          echo "Scored $scored instruments"
+          # A handful of scores means every source was blocked; committing that
+          # would wipe out a good snapshot with an empty one.
+          if [ "$scored" -lt 20 ]; then
+            echo "::error::Only $scored instruments scored — refusing to commit a broken snapshot."
+            exit 1
+          fi
+
+      - name: Commit the snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No change — nothing to commit."
+          else
+            git commit -m "data: analyst snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi

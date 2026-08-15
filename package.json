@@ -1,0 +1,32 @@
+{
+  "name": "stockr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Analyst-consensus ranking engine and dashboard for TSX / TSXV stocks and Canadian ETFs",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "refresh": "tsx src/cli/refresh.ts",
+    "universe:refresh": "tsx src/cli/universe-refresh.ts",
+    "probe": "tsx src/cli/probe.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "yahoo-finance2": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,1644 @@
+{
+  "updatedAt": null,
+  "source": "curated-seed",
+  "entries": [
+    {
+      "symbol": "ABX.TO",
+      "name": "Barrick Mining",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "AC.TO",
+      "name": "Air Canada",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "ACO-X.TO",
+      "name": "ATCO Ltd.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "AEM.TO",
+      "name": "Agnico Eagle Mines",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "AGI.TO",
+      "name": "Alamos Gold",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "ALA.TO",
+      "name": "AltaGas Ltd.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "AND.TO",
+      "name": "Andlauer Healthcare Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "AP-UN.TO",
+      "name": "Allied Properties REIT",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "AQN.TO",
+      "name": "Algonquin Power & Utilities",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "ARX.TO",
+      "name": "ARC Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "ATD.TO",
+      "name": "Alimentation Couche-Tard",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "ATRL.TO",
+      "name": "AtkinsRealis Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "ATS.TO",
+      "name": "ATS Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "ATZ.TO",
+      "name": "Aritzia Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "BAM.TO",
+      "name": "Brookfield Asset Management",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "BBD-B.TO",
+      "name": "Bombardier Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "BBU-UN.TO",
+      "name": "Brookfield Business Partners",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "BCE.TO",
+      "name": "BCE Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "BDT.TO",
+      "name": "Bird Construction",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "BEI-UN.TO",
+      "name": "Boardwalk Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "BEP-UN.TO",
+      "name": "Brookfield Renewable Partners",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "BEPC.TO",
+      "name": "Brookfield Renewable Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "BHC.TO",
+      "name": "Bausch Health Companies",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Health Care"
+    },
+    {
+      "symbol": "BIP-UN.TO",
+      "name": "Brookfield Infrastructure Partners",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "BIPC.TO",
+      "name": "Brookfield Infrastructure Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "BIR.TO",
+      "name": "Birchcliff Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "BLN.TO",
+      "name": "Blackline Safety",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "BLX.TO",
+      "name": "Boralex Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "BMO.TO",
+      "name": "Bank of Montreal",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "BN.TO",
+      "name": "Brookfield Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "BNS.TO",
+      "name": "Bank of Nova Scotia",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "BTE.TO",
+      "name": "Baytex Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "BTO.TO",
+      "name": "B2Gold Corp.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "BYD.TO",
+      "name": "Boyd Group Services",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "CAE.TO",
+      "name": "CAE Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "CAR-UN.TO",
+      "name": "Canadian Apartment Properties REIT",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "CAS.TO",
+      "name": "Cascades Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "CCA.TO",
+      "name": "Cogeco Communications",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "CCL-B.TO",
+      "name": "CCL Industries",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "CCO.TO",
+      "name": "Cameco Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "CDZ.TO",
+      "name": "iShares S&P/TSX Canadian Dividend Aristocrats Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "CG.TO",
+      "name": "Centerra Gold",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "CGO.TO",
+      "name": "Cogeco Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "CGX.TO",
+      "name": "Cineplex Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "CHP-UN.TO",
+      "name": "Choice Properties REIT",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "CIGI.TO",
+      "name": "Colliers International Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "CJ.TO",
+      "name": "Cardinal Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "CJT.TO",
+      "name": "Cargojet Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "CLS.TO",
+      "name": "Celestica Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "CM.TO",
+      "name": "Canadian Imperial Bank of Commerce",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "CNQ.TO",
+      "name": "Canadian Natural Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "CNR.TO",
+      "name": "Canadian National Railway",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "CP.TO",
+      "name": "Canadian Pacific Kansas City",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "CPH.TO",
+      "name": "Cipher Pharmaceuticals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Health Care"
+    },
+    {
+      "symbol": "CPX.TO",
+      "name": "Capital Power",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "CRT-UN.TO",
+      "name": "CT Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "CS.TO",
+      "name": "Capstone Copper",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "CSH-UN.TO",
+      "name": "Chartwell Retirement Residences",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "CSU.TO",
+      "name": "Constellation Software",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "CTC-A.TO",
+      "name": "Canadian Tire Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "CU.TO",
+      "name": "Canadian Utilities",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "CVE.TO",
+      "name": "Cenovus Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "DFY.TO",
+      "name": "Definity Financial",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "DIR-UN.TO",
+      "name": "Dream Industrial REIT",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "DND.TO",
+      "name": "Dye & Durham",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "DOL.TO",
+      "name": "Dollarama Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "DOO.TO",
+      "name": "BRP Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "DPM.TO",
+      "name": "Dundee Precious Metals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "DSG.TO",
+      "name": "Descartes Systems Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "EIF.TO",
+      "name": "Exchange Income Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "ELD.TO",
+      "name": "Eldorado Gold",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "ELF.TO",
+      "name": "E-L Financial",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "EMA.TO",
+      "name": "Emera Incorporated",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "EMP-A.TO",
+      "name": "Empire Company",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "ENB.TO",
+      "name": "Enbridge Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "ENGH.TO",
+      "name": "Enghouse Systems",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "EQB.TO",
+      "name": "EQB Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "EQX.TO",
+      "name": "Equinox Gold",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "ERO.TO",
+      "name": "Ero Copper",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "ET.TO",
+      "name": "Evertz Technologies",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "EXE.TO",
+      "name": "Extendicare Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Health Care"
+    },
+    {
+      "symbol": "FCR-UN.TO",
+      "name": "First Capital Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "FFH.TO",
+      "name": "Fairfax Financial Holdings",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "FIE.TO",
+      "name": "iShares Canadian Financial Monthly Income ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "FM.TO",
+      "name": "First Quantum Minerals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "FNV.TO",
+      "name": "Franco-Nevada",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "FR.TO",
+      "name": "First Majestic Silver",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "FRU.TO",
+      "name": "Freehold Royalties",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "FSV.TO",
+      "name": "FirstService Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "FTS.TO",
+      "name": "Fortis Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "FTT.TO",
+      "name": "Finning International",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "GEI.TO",
+      "name": "Gibson Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "GIB-A.TO",
+      "name": "CGI Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "GIL.TO",
+      "name": "Gildan Activewear",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "GRT-UN.TO",
+      "name": "Granite Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "GSY.TO",
+      "name": "goeasy Ltd.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "GWO.TO",
+      "name": "Great-West Lifeco",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "H.TO",
+      "name": "Hydro One Limited",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "HBM.TO",
+      "name": "Hudbay Minerals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "HDIV.TO",
+      "name": "Hamilton Enhanced Multi-Sector Covered Call ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "HMAX.TO",
+      "name": "Global X Canadian Financials Covered Call ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "HR-UN.TO",
+      "name": "H&R Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "HWX.TO",
+      "name": "Headwater Exploration",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "HXT.TO",
+      "name": "Global X S&P/TSX 60 Index Corporate Class ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "IAG.TO",
+      "name": "iA Financial",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "IFC.TO",
+      "name": "Intact Financial",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "IIP-UN.TO",
+      "name": "InterRent Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "IMG.TO",
+      "name": "IAMGOLD Corp.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "IMO.TO",
+      "name": "Imperial Oil",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "INE.TO",
+      "name": "Innergex Renewable Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "IVN.TO",
+      "name": "Ivanhoe Mines",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "JWEL.TO",
+      "name": "Jamieson Wellness",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "K.TO",
+      "name": "Kinross Gold",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "KEY.TO",
+      "name": "Keyera Corp.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "KMP-UN.TO",
+      "name": "Killam Apartment REIT",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "KXS.TO",
+      "name": "Kinaxis Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "L.TO",
+      "name": "Loblaw Companies",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "LMN.V",
+      "name": "Lumine Group",
+      "kind": "stock",
+      "exchange": "TSXV",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "LNR.TO",
+      "name": "Linamar Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "LSPD.TO",
+      "name": "Lightspeed Commerce",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "LUG.TO",
+      "name": "Lundin Gold",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "LUN.TO",
+      "name": "Lundin Mining",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "MAG.TO",
+      "name": "MAG Silver",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "MDA.TO",
+      "name": "MDA Space",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "MEG.TO",
+      "name": "MEG Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "MFC.TO",
+      "name": "Manulife Financial",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "MFI.TO",
+      "name": "Maple Leaf Foods",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "MG.TO",
+      "name": "Magna International",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "MRU.TO",
+      "name": "Metro Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "MTY.TO",
+      "name": "MTY Food Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "MX.TO",
+      "name": "Methanex Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "NA.TO",
+      "name": "National Bank of Canada",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "NFI.TO",
+      "name": "NFI Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "NG.TO",
+      "name": "NovaGold Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "NPI.TO",
+      "name": "Northland Power",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "NTR.TO",
+      "name": "Nutrien Ltd.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "NVA.TO",
+      "name": "NuVista Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "NWC.TO",
+      "name": "North West Company",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "NWH-UN.TO",
+      "name": "NorthWest Healthcare Properties REIT",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "ONEX.TO",
+      "name": "Onex Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "OR.TO",
+      "name": "Osisko Gold Royalties",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "OSK.TO",
+      "name": "Osisko Mining",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "OTEX.TO",
+      "name": "Open Text Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "OVV.TO",
+      "name": "Ovintiv Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "PAAS.TO",
+      "name": "Pan American Silver",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "PBH.TO",
+      "name": "Premium Brands Holdings",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "PEY.TO",
+      "name": "Peyto Exploration & Development",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "POW.TO",
+      "name": "Power Corporation of Canada",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "PPL.TO",
+      "name": "Pembina Pipeline",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "PSK.TO",
+      "name": "PrairieSky Royalty",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "PXT.TO",
+      "name": "Parex Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "QBR-B.TO",
+      "name": "Quebecor Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "QSR.TO",
+      "name": "Restaurant Brands International",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "QTRH.TO",
+      "name": "Quarterhill Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "RBA.TO",
+      "name": "RB Global",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "RCI-B.TO",
+      "name": "Rogers Communications",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "REI-UN.TO",
+      "name": "RioCan Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "RSI.TO",
+      "name": "Rogers Sugar",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "RUS.TO",
+      "name": "Russel Metals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "RY.TO",
+      "name": "Royal Bank of Canada",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "SAP.TO",
+      "name": "Saputo Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "SES.TO",
+      "name": "Secure Waste Infrastructure",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "SHOP.TO",
+      "name": "Shopify Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "SIA.TO",
+      "name": "Sienna Senior Living",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Health Care"
+    },
+    {
+      "symbol": "SJ.TO",
+      "name": "Stella-Jones",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "SLF.TO",
+      "name": "Sun Life Financial",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "SPB.TO",
+      "name": "Superior Plus",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "SRU-UN.TO",
+      "name": "SmartCentres Real Estate Investment Trust",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Real Estate"
+    },
+    {
+      "symbol": "SSRM.TO",
+      "name": "SSR Mining",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "STN.TO",
+      "name": "Stantec Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "SU.TO",
+      "name": "Suncor Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "SVM.TO",
+      "name": "Silvercorp Metals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "T.TO",
+      "name": "TELUS Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Communication Services"
+    },
+    {
+      "symbol": "TA.TO",
+      "name": "TransAlta Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Utilities"
+    },
+    {
+      "symbol": "TD.TO",
+      "name": "Toronto-Dominion Bank",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "TECK-B.TO",
+      "name": "Teck Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "TFII.TO",
+      "name": "TFI International",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "TIH.TO",
+      "name": "Toromont Industries",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "TIXT.TO",
+      "name": "TELUS Digital",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "TOI.V",
+      "name": "Topicus.com Inc.",
+      "kind": "stock",
+      "exchange": "TSXV",
+      "sector": "Technology"
+    },
+    {
+      "symbol": "TOU.TO",
+      "name": "Tourmaline Oil",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "TOY.TO",
+      "name": "Spin Master Corp.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "symbol": "TRI.TO",
+      "name": "Thomson Reuters",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "TRP.TO",
+      "name": "TC Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "TVE.TO",
+      "name": "Tamarack Valley Energy",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "TXG.TO",
+      "name": "Torex Gold Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "VAB.TO",
+      "name": "Vanguard Canadian Aggregate Bond Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VBAL.TO",
+      "name": "Vanguard Balanced ETF Portfolio",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VCE.TO",
+      "name": "Vanguard FTSE Canada Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VCN.TO",
+      "name": "Vanguard FTSE Canada All Cap Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VDY.TO",
+      "name": "Vanguard FTSE Canadian High Dividend Yield Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VEE.TO",
+      "name": "Vanguard FTSE Emerging Markets All Cap Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VEQT.TO",
+      "name": "Vanguard All-Equity ETF Portfolio",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VFV.TO",
+      "name": "Vanguard S&P 500 Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VGRO.TO",
+      "name": "Vanguard Growth ETF Portfolio",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VIU.TO",
+      "name": "Vanguard FTSE Developed All Cap ex North America Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VRE.TO",
+      "name": "Vanguard FTSE Canadian Capped REIT Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "VRN.TO",
+      "name": "Veren Inc.",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "VUN.TO",
+      "name": "Vanguard U.S. Total Market Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "WCN.TO",
+      "name": "Waste Connections",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "WCP.TO",
+      "name": "Whitecap Resources",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Energy"
+    },
+    {
+      "symbol": "WDO.TO",
+      "name": "Wesdome Gold Mines",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "WELL.TO",
+      "name": "WELL Health Technologies",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Health Care"
+    },
+    {
+      "symbol": "WFG.TO",
+      "name": "West Fraser Timber",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "WJX.TO",
+      "name": "Wajax Corporation",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "WN.TO",
+      "name": "George Weston",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Consumer Staples"
+    },
+    {
+      "symbol": "WPM.TO",
+      "name": "Wheaton Precious Metals",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Materials"
+    },
+    {
+      "symbol": "WSP.TO",
+      "name": "WSP Global",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Industrials"
+    },
+    {
+      "symbol": "X.TO",
+      "name": "TMX Group",
+      "kind": "stock",
+      "exchange": "TSX",
+      "sector": "Financials"
+    },
+    {
+      "symbol": "XBB.TO",
+      "name": "iShares Core Canadian Universe Bond Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XDV.TO",
+      "name": "iShares Canadian Select Dividend Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XEC.TO",
+      "name": "iShares Core MSCI Emerging Markets IMI Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XEF.TO",
+      "name": "iShares Core MSCI EAFE IMI Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XEG.TO",
+      "name": "iShares S&P/TSX Capped Energy Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XEI.TO",
+      "name": "iShares S&P/TSX Composite High Dividend Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XFN.TO",
+      "name": "iShares S&P/TSX Capped Financials Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XGD.TO",
+      "name": "iShares S&P/TSX Global Gold Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XIC.TO",
+      "name": "iShares Core S&P/TSX Capped Composite Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XIT.TO",
+      "name": "iShares S&P/TSX Capped Information Technology Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XIU.TO",
+      "name": "iShares S&P/TSX 60 Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XMA.TO",
+      "name": "iShares S&P/TSX Capped Materials Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XQQ.TO",
+      "name": "iShares NASDAQ 100 Index ETF (CAD-Hedged)",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XRE.TO",
+      "name": "iShares S&P/TSX Capped REIT Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XSP.TO",
+      "name": "iShares Core S&P 500 Index ETF (CAD-Hedged)",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XST.TO",
+      "name": "iShares S&P/TSX Capped Consumer Staples Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XUT.TO",
+      "name": "iShares S&P/TSX Capped Utilities Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "XUU.TO",
+      "name": "iShares Core S&P U.S. Total Market Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZAG.TO",
+      "name": "BMO Aggregate Bond Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZCN.TO",
+      "name": "BMO S&P/TSX Capped Composite Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZDV.TO",
+      "name": "BMO Canadian Dividend ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZEB.TO",
+      "name": "BMO Equal Weight Banks Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZEO.TO",
+      "name": "BMO Equal Weight Oil & Gas Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZLB.TO",
+      "name": "BMO Low Volatility Canadian Equity ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZPR.TO",
+      "name": "BMO Laddered Preferred Share Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZQQ.TO",
+      "name": "BMO NASDAQ 100 Equity Hedged to CAD Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZRE.TO",
+      "name": "BMO Equal Weight REITs Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZSP.TO",
+      "name": "BMO S&P 500 Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZUT.TO",
+      "name": "BMO Equal Weight Utilities Index ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZWB.TO",
+      "name": "BMO Covered Call Canadian Banks ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZWC.TO",
+      "name": "BMO Canadian High Dividend Covered Call ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    },
+    {
+      "symbol": "ZWU.TO",
+      "name": "BMO Covered Call Utilities ETF",
+      "kind": "etf",
+      "exchange": "TSX"
+    }
+  ]
+}
