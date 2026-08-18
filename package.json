@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx src/cli/copy-static-data.ts",
     "build": "next build",
-    "start": "next start",
+    "serve": "npx --yes serve out -l 3000",
     "refresh": "tsx src/cli/refresh.ts",
     "universe:refresh": "tsx src/cli/universe-refresh.ts",
     "probe": "tsx src/cli/probe.ts",

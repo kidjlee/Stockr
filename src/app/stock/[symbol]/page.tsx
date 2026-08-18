@@ -14,7 +14,23 @@ import {
 import { loadHistory, loadLatest } from "../../../lib/storage";
 import { RATING_BUCKETS, RATING_LABELS } from "../../../lib/types";
 
-export const dynamic = "force-dynamic";
+/** Stands in for the real params before the first-ever refresh has run. */
+const PLACEHOLDER_SYMBOL = "_none";
+
+/**
+ * Static export needs every dynamic path enumerated at build time — there's
+ * no server left to render one on demand. Symbols not in this list 404, which
+ * is correct: they weren't in the universe as of the last rebuild.
+ *
+ * Next requires at least one generated path even when there's nothing to
+ * show yet, so an empty universe falls back to a single placeholder path
+ * whose page renders the "no data" state instead of 404ing.
+ */
+export async function generateStaticParams() {
+  const snapshot = await loadLatest();
+  if (!snapshot?.records.length) return [{ symbol: PLACEHOLDER_SYMBOL }];
+  return snapshot.records.map((record) => ({ symbol: record.symbol }));
+}
 
 export default async function StockPage({
   params,
@@ -22,10 +38,21 @@ export default async function StockPage({
   params: Promise<{ symbol: string }>;
 }) {
   const { symbol } = await params;
-  const wanted = decodeURIComponent(symbol).toUpperCase();
 
   const snapshot = await loadLatest();
-  const record = snapshot?.records.find((r) => r.symbol === wanted);
+  if (!snapshot) {
+    return (
+      <div className="empty" style={{ paddingTop: 90 }}>
+        <h1>No snapshot yet</h1>
+        <p>
+          Run <code>npm run refresh</code>, then rebuild the site.
+        </p>
+      </div>
+    );
+  }
+
+  const wanted = decodeURIComponent(symbol).toUpperCase();
+  const record = snapshot.records.find((r) => r.symbol === wanted);
   if (!record) notFound();
 
   const history = await loadHistory(record.symbol);

@@ -2,8 +2,6 @@ import { ALL_PROVIDERS } from "../../providers/index";
 import { loadLatest } from "../../lib/storage";
 import { DEFAULT_WEIGHTS } from "../../lib/types";
 
-export const dynamic = "force-dynamic";
-
 export default async function MethodologyPage() {
   const snapshot = await loadLatest();
   const weights = snapshot?.scoring ?? DEFAULT_WEIGHTS;

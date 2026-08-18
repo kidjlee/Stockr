@@ -3,8 +3,6 @@ import RankingTable from "../../components/RankingTable";
 import { formatPercent, Stat } from "../../components/ui";
 import { loadLatest } from "../../lib/storage";
 
-export const dynamic = "force-dynamic";
-
 export default async function EtfPage() {
   const snapshot = await loadLatest();
   if (!snapshot) {

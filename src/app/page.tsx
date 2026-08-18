@@ -4,10 +4,6 @@ import { DeltaText, formatPercent, Stat } from "../components/ui";
 import { loadLatest, loadPrevious } from "../lib/storage";
 import type { ConsensusRecord } from "../lib/types";
 
-// Snapshots are read from disk on every request so a mid-session refresh
-// shows up without a rebuild.
-export const dynamic = "force-dynamic";
-
 export default async function HomePage() {
   const snapshot = await loadLatest();
   if (!snapshot) return <NoData />;

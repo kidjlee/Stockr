@@ -12,6 +12,9 @@ npm run refresh     # pull analyst data, write today's snapshot
 npm run dev         # http://localhost:3000
 ```
 
+Deployed to GitHub Pages, it rebuilds itself daily — see
+[Deployment](#deployment-github-pages) below.
+
 ---
 
 ## What it does
@@ -36,8 +39,7 @@ npm run dev         # http://localhost:3000
 | `/stock/[symbol]` | Per-source breakdown, target-range gauge, rating mix, history |
 | `/etfs` | ETFs with look-through coverage |
 | `/methodology` | Exactly how the score is built, and where it breaks down |
-| `/api/rankings` | The rankings as JSON |
-| `/api/refresh` | Token-protected refresh trigger |
+| `/rankings.json` | The current snapshot as plain JSON |
 
 ---
 
@@ -135,15 +137,40 @@ investment advice.
 
 ---
 
-## Daily refresh
+## Deployment: GitHub Pages
 
-Pick whichever fits how you're running it.
+The dashboard is a **static export** — `next build` renders every page once at
+build time from whatever is in `data/latest.json`, and the result is plain
+HTML/JS/CSS with no server behind it, which is exactly what GitHub Pages
+serves. Two workflows make that self-updating:
 
-**GitHub Actions** (included) — `.github/workflows/daily-refresh.yml` runs at
-21:30 UTC on weekdays, commits the snapshot back to the repo, and refuses to
-commit a run that scored fewer than 20 instruments so a bad night can't wipe out
-a good snapshot. Add `FINNHUB_API_KEY` / `FMP_API_KEY` as repo secrets if you
-want those sources.
+1. **`.github/workflows/daily-refresh.yml`** runs at 21:30 UTC on weekdays,
+   pulls fresh analyst data, and commits the new snapshot — refusing to commit
+   a run that scored fewer than 20 instruments, so a bad night can't wipe out a
+   good snapshot.
+2. **`.github/workflows/deploy-pages.yml`** rebuilds the static site and
+   publishes it, triggered by that commit (via `workflow_run`), by a push to
+   `src/`, `config/` or `data/`, or manually from the Actions tab.
+
+So the loop is: refresh → commit → rebuild → redeploy, once a day, with no
+server to pay for or keep running. Add `FINNHUB_API_KEY` / `FMP_API_KEY` as
+repo secrets if you want those sources in the daily run.
+
+**One-time setup**, since GitHub won't turn this on for you: in the repo,
+go to **Settings → Pages → Build and deployment → Source**, and select
+**GitHub Actions**. After that, every push (or the next scheduled refresh)
+publishes to `https://<owner>.github.io/<repo>/`.
+
+The tradeoff of going static: the dashboard only reflects the world as of the
+last rebuild, and the old `/api/refresh` trigger-on-demand endpoint doesn't
+exist in this mode (there's no server for it to run on). If you want the
+dashboard itself to always show live data on each request instead of the daily
+batch, run it as a normal Next.js server — self-host with `npm run build &&
+npx serve out` for a static preview, or drop `output: "export"` from
+`next.config.mjs` and deploy the full server (Vercel, Railway, a VPS) to bring
+back live per-request refresh via an API route.
+
+### Other ways to trigger a refresh
 
 **Cron on a box you control:**
 
@@ -151,16 +178,14 @@ want those sources.
 30 17 * * 1-5 cd /path/to/Stockr && /usr/bin/npm run refresh >> refresh.log 2>&1
 ```
 
-**HTTP** — set `REFRESH_TOKEN` and point any scheduler at the endpoint:
+**Manually, any time:**
 
 ```bash
-curl -X POST -H "Authorization: Bearer $REFRESH_TOKEN" https://your-app/api/refresh
+npm run refresh
+git add data/ && git commit -m "data: refresh" && git push
 ```
 
-Without `REFRESH_TOKEN` set, the route returns 503 rather than defaulting to
-open. On Vercel, add a `vercel.json` cron hitting the same path — note that the
-filesystem is read-only there, so snapshots must come from the Actions workflow
-committing them into the repo.
+Pushing `data/` is enough — `deploy-pages.yml` picks it up and rebuilds.
 
 ---
 
