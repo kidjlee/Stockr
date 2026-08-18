@@ -51,13 +51,31 @@ Deployed to GitHub Pages, it rebuilds itself daily — see
 | **TradingView** | On, no key | Rating ladder, average target and estimate count — whole universe in one request |
 | **Manual entry** | On, reads `data/manual-ratings.csv` | Numbers you transcribe from anywhere |
 | **Finnhub** | Set `FINNHUB_API_KEY` | Independent rating distribution, price targets on paid tiers |
+| **Zacks** (via Intrinio) | Set `INTRINIO_API_KEY` | Independent five-rung distribution + target consensus, licensed from Zacks |
 | **Financial Modeling Prep** | Set `FMP_API_KEY` | Sell-side grades and target consensus |
 | **TipRanks** | Set `TIPRANKS_ENABLED=1` | Buy / Hold / Sell ladder and its own target consensus |
+| **Benzinga** | Set `BENZINGA_API_KEY` | Consensus built here from individual analyst rating actions (see below) |
 
-Copy `.env.example` to `.env` to add keys. Both keyed sources have free tiers.
+Copy `.env.example` to `.env` to add keys. All keyed sources have free tiers,
+though Intrinio's free-tier request quota is small — fine for a `--symbols` or
+`--limit` subset, tight for a full daily run of the whole universe.
 
 A source that fails is skipped with a warning on the dashboard — the blend just
 narrows. A refresh never dies because one site is down.
+
+**Zacks has no public API of its own** — it licenses its data to Intrinio,
+which re-publishes it with a clean, documented schema explicitly covering
+"over 5,000 US and Canadian listed companies." That's what `zacks.ts` calls.
+
+**Benzinga is different from every other source here**: its API returns a feed
+of individual analyst rating *events* (upgrades, downgrades, initiations),
+not a pre-built consensus. `benzinga.ts` builds one itself — keeping each
+covering analyst's most recent call from the last 12 months, mapping their
+firm's own wording ("Outperform," "Sector Perform," "Underweight," ...) onto
+the same five rungs everything else uses, and averaging their price targets.
+An unrecognized rating word is dropped rather than guessed at. Its coverage
+also skews to US and cross-listed names — see `src/providers/benzinga.ts` for
+the exact vocabulary map if you want to extend it.
 
 ### MarketWatch, CNN, The Globe and Mail
 

@@ -41,6 +41,8 @@ jobs:
         env:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          INTRINIO_API_KEY: ${{ secrets.INTRINIO_API_KEY }}
+          BENZINGA_API_KEY: ${{ secrets.BENZINGA_API_KEY }}
           # TipRanks blocks datacentre IPs, so leave it off in CI.
           TIPRANKS_ENABLED: "0"
         run: |
